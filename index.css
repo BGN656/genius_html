@@ -3,11 +3,10 @@ body {
 }
 h2 {
   font-size: 30px;
-
   color: blue;
 }
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   color: blue;
   font-style: normal;
 }
@@ -22,28 +21,28 @@ p {
 }
 .blo {
   display: grid;
-  grid-template-columns: repeat(4, 2fr);
-  gap: 10px;
-  width: 90%;
-  height: 140px;
-  background-color: lightgray;
-  border: 2px solid rgb(144, 5, 5);
-  margin: 10px;
-  padding: 10px;
+  grid-template-columns: 30% 20% 20% 30%;
+  grid-gap: 8px;
 }
-.blo2 {
-  width: 150px;
-  height: 150px;
-  background-color: lightyellow;
-  border: 2px solid rgb(144, 5, 5);
-  margin: 10px;
-  padding: 10px;
+.blo1 {
+  height: 130px;
+  background-color: rgb(154, 237, 237);
+  color: white;
+  font-size: 1.75em;
+  text-align: center;
+  font-family: monospace;
+  padding: 12px 0;
 }
 .card {
   width: 300px;
   height: 200px;
   background-color: lightgreen;
-  border: 2px solid rgb(144, 5, 5);
+  border: 2px solid rgb(103, 98, 98);
   margin: 10px;
   padding: 10px;
+}
+.foot {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-gap: 6px;
 }
