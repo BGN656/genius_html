@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 30px;
+
+  color: blue;
+}
+h3 {
+  font-size: 20px;
+  color: blue;
+  font-style: normal;
+}
+h4 {
+  font-size: 18px;
+  color: blue;
+  font-style: normal;
+}
+p {
+  font-size: 16px;
+  color: blue;
+}
+.blo {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 10px;
+  width: 90%;
+  height: 140px;
+  background-color: lightgray;
+  border: 2px solid rgb(144, 5, 5);
+  margin: 10px;
+  padding: 10px;
+}
+.blo2 {
+  width: 150px;
+  height: 150px;
+  background-color: lightyellow;
+  border: 2px solid rgb(144, 5, 5);
+  margin: 10px;
+  padding: 10px;
+}
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: lightgreen;
+  border: 2px solid rgb(144, 5, 5);
+  margin: 10px;
+  padding: 10px;
+}
