@@ -1,8 +1,16 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(71, 21, 208);
+  opacity: 1;
+}
 h2 {
-  font-size: 30px;
+  font-family: Snell Roundhand, cursive;
+  font-size: 36px;
   color: blue;
   opacity: 0.9;
 }
